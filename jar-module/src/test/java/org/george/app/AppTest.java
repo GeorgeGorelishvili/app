@@ -9,4 +9,9 @@ public class AppTest {
     public void testApp() {
         Assert.assertTrue(true);
     }
+
+    @Test
+    public void testApp1git() {
+        Assert.assertTrue(true);
+    }
 }
