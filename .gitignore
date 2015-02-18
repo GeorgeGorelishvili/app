@@ -1,0 +1,9 @@
+# ignored files and folders
+
+.idea
+*/target
+*.iml
+/*.iml
+*.class
+*.orig
+.git
