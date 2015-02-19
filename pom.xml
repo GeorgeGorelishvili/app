@@ -22,7 +22,7 @@
     </modules>
 
     <scm>
-        <developerConnection>scm:svn:https://svn.mycompany.com/repos/myapplication/trunk/mycomponent/</developerConnection>
+        <developerConnection>scm:svn:https://github.com/GeorgeGorelishvili/app.git</developerConnection>
     </scm>
 
     <build>
