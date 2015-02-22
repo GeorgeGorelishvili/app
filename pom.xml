@@ -21,8 +21,8 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/GeorgeGorelishvili/app.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <plugins>
@@ -44,6 +44,13 @@
                     <pomFileName>app/pom.xml</pomFileName>
                     <tagBase>https://github.com/GeorgeGorelishvili/app/.git/refs/tags/</tagBase>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.scm</groupId>
+                        <artifactId>maven-scm-provider-gitexe</artifactId>
+                        <version>1.9.1</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
