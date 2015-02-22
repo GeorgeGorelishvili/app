@@ -21,7 +21,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/GeorgeGorelishvili/app.git</developerConnection>
-  </scm>
+    </scm>
 
     <build>
         <plugins>
@@ -41,7 +41,7 @@
                 <configuration>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <pomFileName>app/pom.xml</pomFileName>
-                    <tagBase>https://github.com/GeorgeGorelishvili/app/.git/releases</tagBase>
+                    <tagBase>https://github.com/GeorgeGorelishvili/app/.git/refs/tags/</tagBase>
                 </configuration>
             </plugin>
         </plugins>
