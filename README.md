@@ -1,11 +1,11 @@
-# app
 
-* this test readme file
+
+    * git pull --rebase - use this for good commit history
 
 # release and deploy new version
 ## mvn release:prepare -Prelease 
     * creates new version
-    * add tag to source controll
+    * adds tag by version in branch
     * pushes to remote repository with tag
 ## mvn release:perform -Prelease
     * creates new SNAPSHOT version
